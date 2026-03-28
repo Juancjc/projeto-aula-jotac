@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/livros', function () {
+    return view('livros.index');
+});
+Route::get('/bomdia', function () {
+    return "Pra quem? Pra mim? Pra você? Pra todo mundo? Bom dia!";
+});
